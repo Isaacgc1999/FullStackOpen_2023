@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NOTES</title>
+</head>
+<body>
+    <h1>NOTES</h1>
+
+    <form id="myForm">
+        <label for="text">Enter text:</label>
+        <input type="text" id="text" name="text" required>
+        
+        <button type="button" onclick="addText()">Save</button>
+    </form>
+
+    <ul id="textList" style="color:blue;"></ul>
+
+    <script>
+        function addText() {
+            var text = document.getElementById("text").value;
+            var listItem = document.createElement("li");
+            listItem.textContent = text;
+            var list = document.getElementById("textList");
+            list.appendChild(listItem);
+            document.getElementById("text").value = "";
+        }
+    </script>
+</body>
+</html>
+
