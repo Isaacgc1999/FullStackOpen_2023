@@ -1,5 +1,5 @@
 # FullStackOpen_2023
-Parent repository of all the exercises and practices related to the course FullStack Open 2023 from University of Helsinki.
+Parent repository of all the exercises and practices related to the course FullStack Open 2023 from the University of Helsinki.
 
 There are several branches with the different parts involved in the course. Below some captures of the exercises that are being uploaded.
 Parts 0 and 1 are so simple that won't have a capture.
